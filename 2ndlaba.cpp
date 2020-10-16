@@ -11,5 +11,6 @@ int main()
     cout << "x: "; cin >> x;
     cout << "y: "; cin >> y;
     cout << "g = " << 5*atan(x) - atan(y)/4 << " rad" << endl;
+    system("pause");
     return 0;
 }
